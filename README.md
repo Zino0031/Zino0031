@@ -41,6 +41,10 @@
 
 ###
 
+<div align="center">
+
+  <img src="https://streak-stats.demolab.com?user=zino0031&locale=en&mode=daily&theme=merko&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
+</div> 
 
 ###
 
