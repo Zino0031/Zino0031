@@ -24,9 +24,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Verify build directory
+        run: |
+          ls dist
+          
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          allow_empty_commit: true
+          commit_message: "Update GitHub Pages"
           token: ${{ secrets.Snake }}
