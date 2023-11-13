@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Create dist directory
+        run: mkdir dist
+
       - name: Generate GitHub contribution grid snake SVG
         uses: Platane/snk/svg-only@v3
         with:
