@@ -16,9 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install 
-
       - name: Generate GitHub contribution grid snake SVG
         run: |
           npx github-contributions-svgs
